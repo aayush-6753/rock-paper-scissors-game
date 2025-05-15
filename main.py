@@ -39,5 +39,12 @@ while True:
 
     print(f"📊 Score — You: {user_score} | Computer: {computer_score}\n")
 
+if computer_score > user_score:
+    print("🤖 Computer wins the game!")
+elif user_score > computer_score:
+    print("🧍 You win the game!")
+else:
+    print("🤝 It's a tie overall!")
+
 
     
